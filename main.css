@@ -1,0 +1,321 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+div{
+    display: block;
+}
+.h-light-grey{
+    color: #000 !important;
+    background-color: #f1f1f1 !important; 
+}
+.nav-bar{
+    width: 100%;
+    overflow: hidden;
+}
+.nav-white{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+.nav-black{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.nav-large{
+    font-size: 18px!important;
+}
+.nav-bar .nav-bar-item{
+    padding: 8px 16px;
+    margin-right: 4px;
+    float: left;
+    border: none;
+    display: block;
+    width: auto;
+    outline: 0;
+}
+.nav-bar .nav-bar-button{
+    white-space: normal;
+}
+.nav-bar-button{
+    text-decoration: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-bar-button:hover{
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.nav-bar-red{
+    color: #fff !important;
+    background-color: #f44336!important;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar-text{
+    color: #000;
+}
+.nav-bar-icon{
+    margin-right: 8px;
+}
+.h2{
+    float: left;
+    padding: 0 16px;
+}
+.icon-out{
+    float: right;
+    padding: 0 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.icon-out:hover{
+    color: #000;
+}
+.nav-right{
+    float: right !important;
+}
+.h-display-container{
+    position: relative;
+}
+.h-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.h-display-container-img{
+    margin-top: 8px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.h-col.m8{
+    width: 50% !important;
+}
+.h-padding{
+    padding: 8px 16px !important;
+}
+.h-display-right{
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    transform: translate(0%, -50%);
+    display: none;
+}
+.h-col{
+    float: left;
+    width: 100%;
+}
+.h-container{
+    padding: 8px 16px;
+}
+.h-padding-16{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+.h-padding-32{
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+.h-row-padding{
+    padding: 2px 4px;
+}
+.h-half{
+    width: 97%;
+}
+.h-input{
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+}
+.h-border{
+    border: 1px solid #ccc;
+}
+.h-button{
+    padding: 16px 32px;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+} 
+.h-button:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.h-dark-grey{
+    color: #fff!important;
+    background-color: #616161!important;
+}
+.h-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.h-margin-top{
+    margin-top: 16px !important;
+}
+.h-margin-bottom{
+    margin-bottom: 16px !important;
+}
+.h-third{
+    width: 32%;
+    padding: 0 8px;
+    float: left;
+}
+.text-opacity{
+    opacity: 0.8;
+    font-size: 20px;
+}
+.text-white{
+    color: #fff !important;
+}
+.h-block{
+    display: block;
+    width: 100%;
+}
+.h-about{
+    padding: 1px 16px;
+}
+.h-img{
+    max-width: 100%;
+    height: auto;
+}
+.h-center{
+    text-align: center;
+}
+.h-margin{
+    margin: 32px 0;
+}
+.h-red{
+    color: #fff !important;
+    background-color: #f44336 !important;
+}
+.h-pannel{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 1px 16px;
+}
+.h-pannel::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-pannel::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-row-padding>.h-col{
+    padding: 0 8px;
+}
+.h-row-padding::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-row-padding::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h-col.l4{
+    width: 33.3333%;
+}
+.h-col.l8{
+    width: 64%;
+}
+.h-col{
+    float: left;
+    margin-top: 16px;
+}
+.h-img{
+    height: auto;
+    max-width: 100%;
+}
+.h-greyscale{
+    filter: grayscale(75%);
+}
+.h-leftbar{
+    border-left: 7px solid #000;
+}
+.h-hafl{
+    width: 49.9999%;
+    float: left;
+}
+.h-display-containerleft{
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 32px;
+}
+.h-address{
+    text-decoration: none;
+    color: #fff;
+}
+.h-address:hover{
+    color: gray;
+    cursor: pointer;
+}
+.h-icon-red{
+    color: #f44336;
+}
+.h-input{
+    width: 100%;
+    padding: 8px;
+    display: block;
+}
+.h-button-black{
+    background-color: #f44336;
+    color: #fff;
+}
+.h-footer{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+.h-link{
+    text-decoration: none;
+    color: #f44336;
+}
+.h-link:hover{
+    opacity: 0.5;
+}
+.h-icon-social{
+    font-size: 24px;
+}
+.img-codepen{
+    --_g: no-repeat linear-gradient(#000 0 0);
+  --_s: 10% /45% 45%;
+  --m:
+    var(--_g) left   var(--_i,0%) top    var(--_s),
+    var(--_g) bottom var(--_i,0%) left   var(--_s),
+    var(--_g) top    var(--_i,0%) right  var(--_s),
+    var(--_g) right  var(--_i,0%) bottom var(--_s);
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale();
+  transition: .3s linear;
+  cursor: pointer;
+}
+.img-codepen:hover{
+    --_i: 10%;
+  filter: grayscale(0);
+}

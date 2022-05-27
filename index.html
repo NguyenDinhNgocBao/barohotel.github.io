@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="icon" href="/img/ádas.jpg">
+</head>
+<body class="h-light-grey">
+    <!--NAV BAR-->
+    <div class="nav-bar nav-white nav-large">
+        <div class="nav-bar-item nav-bar-button nav-bar-red" onclick="h_open()">
+            <i class="fa-solid fa-hotel nav-bar-icon"></i>
+            BARO HoTel
+        </div>
+        <a href="#rooms" class="nav-bar-item nav-bar-button nav-bar-text">
+            ROOMS
+        </a>
+        <a href="#about" class="nav-bar-item nav-bar-button nav-bar-text">
+            ABOUT
+        </a>
+        <a href="#contact" class="nav-bar-item nav-bar-button nav-bar-text">
+            CONTACT
+        </a>
+        <a href="#contact" class="nav-bar-item nav-bar-button nav-right h-light-grey">
+            BOOK NOW
+        </a>
+    </div>
+    <!--HEADER-->
+    <header class="h-display-container h-content" style="max-width: 1500px;">
+        <img src="/img/hotel.jpg" alt="hotel" class="h-display-container-img" style="min-width: 1000px;" width="1500" height="800">
+        <div class="h-display-right  h-col 16 m8" id="mySideBar">
+            <div class="flex nav-bar-red">
+                <div class="h2">
+                    <h2>
+                        <i class="fa-solid fa-bed nav-bar-icon"></i>
+                        BARO HOTEL
+                    </h2>
+
+                </div>
+                <div class="icon-out" onclick="h_close()">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+            <div class="h-container nav-white h-padding-16">
+                <form action="">
+                    <div class="h-row-padding" style="margin: 0 -16px;">
+                        <!--Check In-->
+                        <div class="h-half h-margin-bottom">
+                            <label>
+                                <i class="fa-solid fa-calendar"></i>
+                                Check In
+                            </label>
+                            <input type="date" class="h-input h-border">
+                        </div>
+                        <!--Check Out-->
+                        <div class="h-half">
+                            <label>
+                                <i class="fa-solid fa-calendar"></i>
+                                Check Out
+                            </label>
+                            <input type="date" class="h-input h-border">
+                        </div>
+                    </div>
+                    <div class="h-row-padding" style="margin: 8px -16px;">
+                        <div class="h-half h-margin-bottom">
+                            <label>
+                                <i class="fa-solid fa-person"></i>
+                                People
+                            </label>
+                            <input type="number" class="h-input h-border">
+                        </div>
+                    </div>
+                    <button class="h-button h-red" onclick="h_close()">
+                        SEND 
+                    </button>
+                </form>
+            </div>
+            
+        </div>
+    </header>
+    <!--PAGE CONTENT-->
+    <div class="h-content" style="max-width:1532px;">
+        <div class="h-container h-margin-top" id="rooms">
+            <h3>ROOMS</h3>
+            <p>Khách sạn như cc, có ngu mới ở</p>
+        </div>
+        <div class="h-row-padding h-padding-16">
+            <div class="h-third h-margin-bottom">
+                <img class="img-codepen" src="/img/room_single.jpg" alt="phongdon" style="width: 100%;">
+                <div class="h-container nav-white">
+                    <h3>Phòng Đơn</h3>
+                    <h4 class="text-opacity">Price: 150k</h4>
+                    <p> Một Giường Đơn</p>
+                    <p> Diện tích: 15m<sup>2</sup></p>
+                    <p class="nav-large">
+                            Tiện ích:
+                            
+                            <i class="fa-solid fa-tv h-row-padding"></i>
+                            <i class="fa-solid fa-wifi h-row-padding"></i>
+                    </p>
+                    <button class="h-button h-red h-margin-bottom h-block">
+                        ĐẶT PHÒNG
+                    </button>
+                </div>
+            </div>
+            <div class="h-third h-margin-bottom">
+                <img class="img-codepen" src="/img/room_double.jpg" alt="phongdon" style="width: 100%;">
+                <div class="h-container nav-white">
+                    <h3>Phòng Đôi</h3>
+                    <h4 class="text-opacity">Price: 300k</h4>
+                    <p> Hai Giường Đơn</p>
+                    <p> Diện tích: 25m<sup>2</sup></p>
+                    <p class="nav-large">
+                            Tiện ích:
+                            <i class="fa-solid fa-bath h-row-padding"></i>
+                            <i class="fa-solid fa-tv h-row-padding"></i>
+                            <i class="fa-solid fa-wifi h-row-padding"></i>
+                    </p>
+                    <button class="h-button h-red h-margin-bottom h-block">
+                        ĐẶT PHÒNG
+                    </button>
+                </div>
+            </div>
+            <div class="h-third h-margin-bottom">
+                <img class="img-codepen" src="/img/room_deluxe.jpg" alt="phongdon" style="width: 100%;">
+                <div class="h-container nav-white">
+                    <h3>Phòng VIP</h3>
+                    <h4 class="text-opacity">Price: 500k</h4>
+                    <p> Giường Đơn size lớn, nệm êm, view đẹp </p>
+                    <p> Diện tích: 40m<sup>2</sup></p>
+                    <p class="nav-large">
+                            Tiện ích:
+                            <i class="fa-solid fa-bath h-row-padding"></i>
+                            <i class="fa-solid fa-tv h-row-padding"></i>
+                            <i class="fa-solid fa-wifi h-row-padding"></i>
+                            <i class="fa-solid fa-couch h-row-padding"></i>
+                    </p>
+                    <button class="h-button h-red  h-margin-bottom h-block">
+                        ĐẶT PHÒNG
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="h-row-padding" id="about">
+            <div class="h-col l4">
+                <h3>ABOUT</h3>
+                <h5>Khách sạn của chúng tôi là một trong những loại. Nó thực sự tuyệt vời. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud tập thể dục ullamco labris nisi ut aliquip ex ea Goodsoequat. Duis aute irure dolor in repmblenderit in voluptate velit esse cillum dolore eu fugiat nulla pariesur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia Desunt mollit anim id est labourum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labre et dolore magna aliqua. Ut enim ad minim veniam.</h5>
+            </div>
+            <div class="h-col l8">
+                <img src="/img/270945866_463500328581752_4052311218361437317_n.png" alt="" class="h-img h-greyscale" style="width:100%">
+            </div>
+        </div>
+        <div class="h-row-padding nav-large h-center" style="margin: 32px 0;">
+                <div class="h-third">
+                    <i class="fa-solid fa-location-dot"></i>
+                    36/06/Ngoc Anh/Phu Thuong/Hue
+                </div>
+                <div class="h-third">
+                    <i class="fa-solid fa-phone"></i>
+                    0793185167
+                </div>
+                <div class="h-third">
+                    <i class="fa-solid fa-envelope"></i>
+                    21t1020237@husc.edu.vn
+                </div>
+        </div>
+        <div class="h-pannel h-red h-padding-32 h-leftbar">
+            <h4>Theo yêu cầu, chúng tôi có thể cung cấp playstation, babycall, dịch vụ chăm sóc trẻ em, thiết bị cho chó, v.v.</h4>
+        </div>
+        <div class="h-container">
+            <h3>Khách sạn của chúng tôi</h3>
+            <h4>Bạn có thể tìm thấy khác sạn của chúng tôi bất cứ ở đâu trên thế giới</h4>
+        </div>
+        <div class="h-padding-16 nav-large h-row-padding text-white">
+            <div class="h-hafl h-margin-bottom">
+                <div class="h-display-container">
+                    <img src="/img/cinqueterre.jpg" alt="" width="100%">
+                    <span class="h-display-containerleft h-padding">
+                        <a class="h-address" href="https://goo.gl/maps/PgPyKH6S1cEWqhoK7">Cinque Terre</a>
+                    </span>
+                </div>
+            </div>
+            <div class="h-hafl">
+                <div class="h-row-padding">
+                    <div class="h-hafl h-margin-bottom">
+                        <div class="h-display-container">
+                            <img src="/img/newyork2.jpg" alt="" width="100%">
+                            <span class="h-display-containerleft h-padding">
+                                <a class="h-address" href="https://goo.gl/maps/9QMT8rw9en3N979D9">New York</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="h-hafl h-margin-bottom">
+                        <div class="h-display-container">
+                            <img src="/img/sanfran.jpg" alt="" width="100%">
+                            <span class="h-display-containerleft h-padding">
+                                <a class="h-address" href="https://goo.gl/maps/3ME7mPgVi3hAYVWc8">San Francisco</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-hafl">
+                <div class="h-row-padding">
+                    <div class="h-hafl h-margin-bottom">
+                        <div class="h-display-container">
+                            <img src="/img/pisa.jpg" alt="" width="100%">
+                            <span class="h-display-containerleft h-padding">
+                                <a class="h-address" href="https://goo.gl/maps/e81VnwmpgHKRZNMT7">PiSa</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="h-hafl h-margin-bottom">
+                        <div class="h-display-container">
+                            <img src="/img/paris.jpg" alt="" width="100%">
+                            <span class="h-display-containerleft h-padding">
+                                <a class="h-address" href="https://goo.gl/maps/nSNMEy2Q9mv4XSc56">Paris</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-container" id="contact">
+            <h3>CONTACT</h3>
+            <p>Nếu bạn có bất kỳ thắc mắc nào,làm ơn hãy giữ trong lòng! đừng hỏi tôi</p>
+            <i class="fa-solid fa-location-dot h-icon-red" style="margin-right: 16px; padding: 6px 0;"></i>
+                Hue , VietNam
+            <br>
+            <i class="fa-solid fa-phone h-icon-red" style="margin-right: 16px; padding: 6px 0;"></i>
+            0793185167
+            <br>
+            <i class="fa-solid fa-envelope h-icon-red" style="margin-right: 16px; padding: 6px 0;"></i>
+            21t1020237@husc.edu.vn
+            <form action="">
+                <p>
+                    <input class="h-padding-16 h-input h-border" type="text" placeholder="NAME">
+                </p>
+                <p>
+                    <input class="h-padding-16 h-input h-border" type="text" placeholder="EMAIL">
+                </p>
+                <p>
+                    <input class="h-padding-16 h-input h-border" type="text" placeholder="MESS">
+                </p>
+                <p>
+                    <button class="h-button h-button-black" type="submit">
+                        SEND
+                    </button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="h-footer h-padding-32 h-margin-top">
+        <h4>Tìm Tôi Tại Đây</h4>
+        <h5>Nguyễn Đình Ngọc Bảo (BARO)</h5>
+        <div class="h-icon-social h-padding-16">
+            <a href="https://www.facebook.com/profile.php?id=100074387220686" class="h-link h-padding-8" style="margin-right: 8px;">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="h-link h-padding-8" style="margin-right: 8px;">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/NguyenDinhNgocBao" class="h-link h-padding-8" style="margin-right: 8px;">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/2/#inbox" class="h-link h-padding-8" style="margin-right: 8px;">
+                <i class="fa-brands fa-google"></i>
+            </a>
+            <a href="https://www.pinterest.com/tan171003/_saved/" class="h-link h-padding-8" style="margin-right: 8px;">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+        </div>
+        <p>
+            Được cung cấp bởi 
+            <a href="https://www.w3schools.com/w3css/w3css_templates.asp" class="h-link">W3.CSS</a>
+        </p>
+    </div>
+    <script>
+        function h_open() {
+            document.getElementById("mySideBar").style.display = "block";
+        }
+        function h_close() {
+            document.getElementById("mySideBar").style.display = "none";
+        }
+    </script>
+</body>
+</html>
